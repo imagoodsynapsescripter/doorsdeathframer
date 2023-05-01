@@ -1,0 +1,5 @@
+while true do
+    game.workspace.lolcat-chez.Humanoid.Health = 0
+task.wait(8)
+game:GetService("ReplicatedStorage").EntityInfo.Revive:FireServer()
+end
